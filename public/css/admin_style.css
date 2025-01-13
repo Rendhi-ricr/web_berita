@@ -1,0 +1,94 @@
+/* Sidebar */
+
+#sidebar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 880;
+    left: 0;
+    padding-inline: 10px;
+    background-color: #2D3F58;
+    padding-top: 20px;
+  }
+  
+
+  #sidebar ul li a {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #sidebar ul li a.menu-link:hover {
+    color: #000000;
+    background: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .sidebar-brand {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+
+  }
+  
+  .sidebar-brand a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 25px;
+  }
+  /* sidebar */
+  
+  /* nav */
+  .navbar-bg {
+    background: #b6b6b6;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    z-index: -1;
+  }
+  
+  .navbar {
+    height: 70px;
+    left: 280px;
+    right: 5px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .navbar h1 {
+    font-size: 25px;
+  }
+  /* nav */
+  
+  /* content */
+  .content {
+    padding-left: 280px;
+    padding-right: 30px;
+    padding-top: 140px;
+    width: 100%;
+    position: relative;
+  }
+
+  .content-tabel {
+    padding-left: 280px;
+    padding-right: 30px;
+    padding-top: 120px;
+  }
+  /* content  */
+ 
+  .tambah {
+    padding-left: 270px;
+    padding-top: 100px;
+  }

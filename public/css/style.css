@@ -1,0 +1,154 @@
+.navbar-nav a:hover {
+    background: #2D3F58;
+    color: white;
+    border-radius: 5px;
+}
+.namekategori {
+    border-bottom: 3px solid black;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.berita-card {
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.berita-card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.judulberita {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.judulberita a {
+    text-decoration: none;
+    color: black;
+}
+
+.judulberita a:hover {
+    color: blue;
+}
+
+/* Umum */
+.umum-card {
+    display: flex;
+    align-items: flex-start;
+    width: 720px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.umum-card img {
+    width: 100px;
+     height: 200px;
+        object-fit: cover;
+}
+
+.umum-card .text {
+    padding-left: 16px;
+}
+
+.umum-card .text a {
+    text-decoration: none;
+    color: black;
+}
+
+.umum-card .text a:hover {
+    color: blue;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: calc(25% - 20px);
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-text {
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.image-container:hover .image-text {
+    opacity: 1;
+}
+
+.detail-container {
+    margin-top: 10px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    position: bottom;
+    bottom: 0;
+    background-color: #1B968D;
+    padding: 20px 0;
+    height: 300px;
+    width: 100%;
+}
+
+.titlefooter {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-column ul li a:hover {
+    color: blue;
+}
